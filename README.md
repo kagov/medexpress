@@ -24,8 +24,8 @@ $ ./gradlew test
 - The consultation is currently linear and the next question is not decided based on the response to the previous question.
 
 ## Additional notes
-- I have tried to adhere to SOLID principles by keeping the interfaces and separate and extendable
-- Currently only one condition is covered, but it can be extended by proving an implementation for `EligibilityService`
+- I have tried to adhere to SOLID principles by keeping the interfaces and services separate and extendable
+- Currently only one condition is covered, but it can be extended by providing an implementation for `EligibilityService`
 - I have implemented some unit and integration testing, but they can be improved upon by using mocks and covering more invalid scenarios
 - I have implemented basic validation to validate some input fields but this is not complete and needs to be improved
 - I have not implemented any logging or exception handling mechanisms
